@@ -1,0 +1,63 @@
+@import url(https://fonts.google.com/css?family=Noto=Sans);
+
+<!doctype html>
+<link rel="stylesheet" href="main.css">
+
+img{
+    width: 522px;
+    height: 747px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans';
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    margin: 15px 0;
+}
+a {
+    color: rgb(0, 119, 182);
+    text-decoration: underline;
+    
+}
+
+p {
+    width: 80%;
+    max-width: 700px;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(31, 31, 31);
+}
+@media (max-width: 768px) {
+    img {
+        width: 90%;
+        height: auto;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+
+    p {
+        width: 90%;
+        font-size: 16px;
+    }
+}
